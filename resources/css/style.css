@@ -1,19 +1,62 @@
 
 header {
   display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
   background-color: #221919;
-  width: auto;
+  width: 100%;
   height: 75px;
+  font-family: Lato;
+  font-weight: normal;
 }
 
-header .logo {
+h1 {
+  font-family: Lato;
+  color: #EAEAEA;
+  font-size: 60px;
+}
 
+h2 {
+  font-family: ato;
+  color: #EAEAEA;
+  font-size: 40px;
+}
+
+h3 {
+  font-family: lato;
+  color: #EAEAEA;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: lato;
+  color: #EAEAEA;
+  font-size: 20px;
+}
+
+header nav {
+  padding-right: 31px;
+}
+
+nav {
+  color: #EAEAEA;
+  font-size: 20px;
+  padding: 11px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 20px;
 }
 
 .image-content {
   display: flex;
+  align-items: center;
   background-image: url(/Users/fernando/Desktop/WebProjects/TeaCozy/resources/images/img-mission-background2.jpg);
-  width: auto;
+  width: 100%;
   height: 700px;
 }
 
@@ -29,6 +72,18 @@ header .logo {
   background-image: url(/Users/fernando/Desktop/WebProjects/TeaCozy/resources/images/img-locations-background2.jpg);
   width: auto;
   height: 500px;
+}
+
+.location-items {
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  background-color: #221919 a:0.9;
 }
 
 footer {
