@@ -1,0 +1,38 @@
+
+header {
+  display: flex;
+  background-color: #221919;
+  width: auto;
+  height: 75px;
+}
+
+header .logo {
+
+}
+
+.image-content {
+  display: flex;
+  background-image: url(/Users/fernando/Desktop/WebProjects/TeaCozy/resources/images/img-mission-background2.jpg);
+  width: auto;
+  height: 700px;
+}
+
+.featured {
+  display: flex;
+  background-color: #221919;
+  width: auto;
+  height: 650px;
+}
+
+.locations {
+  display: flex;
+  background-image: url(/Users/fernando/Desktop/WebProjects/TeaCozy/resources/images/img-locations-background2.jpg);
+  width: auto;
+  height: 500px;
+}
+
+footer {
+  background-color: #221919;
+  width: auto;
+  height: 252px;
+}
