@@ -4,71 +4,118 @@ header {
   align-items: center;
   position: fixed;
   z-index: 1;
-  background-color: #221919;
+  background-color: rgba(34, 24, 25, 1);
   width: 100%;
   height: 75px;
-  font-family: Lato;
-  font-weight: normal;
+  font-family: 'Lato';
 }
 
 h1 {
-  font-family: Lato;
+  font-family: 'Lato';
+  font-weight: 300;
   color: #EAEAEA;
   font-size: 60px;
 }
 
 h2 {
-  font-family: ato;
+  font-family: 'Lato';
+  font-weight: 200;
   color: #EAEAEA;
   font-size: 40px;
 }
 
 h3 {
-  font-family: lato;
+  font-family: 'Lato';
+  font-weight: 300;
   color: #EAEAEA;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 h4 {
-  font-family: lato;
+  font-family: 'Lato';
   color: #EAEAEA;
   font-size: 20px;
+}
+
+p {
+  font-family: 'Lato';
+  color: #EAEAEA;
+  font-weight: 200;
+  font-size: 18px;
+  text-align: center;
 }
 
 header nav {
+  display: inline-flex;
   padding-right: 31px;
 }
 
-nav {
+nav span {
   color: #EAEAEA;
-  font-size: 20px;
+  font-family: 'Lato';
+  font-weight: 200;
+  font-size: 18px;
   padding: 11px;
 }
 
-.logo {
-  display: flex;
+header .logo {
+  display: inline-flex;
   align-items: center;
   flex-grow: 1;
   padding-left: 20px;
+  height: 45px;
 }
+
+/*Sizing*/
 
 .image-content {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-image: url(/Users/fernando/Desktop/WebProjects/TeaCozy/resources/images/img-mission-background2.jpg);
   width: 100%;
   height: 700px;
 }
 
-.featured {
+.main-container {
   display: flex;
-  background-color: #221919;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(34, 24, 25, 1);
   width: auto;
   height: 650px;
 }
 
+.features {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 1210px;
+  height: 375px;
+}
+
+.item-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 375px;
+}
+
+.img-box {
+  width: 220px;
+  height: 330px;
+}
+
 .locations {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-image: url(/Users/fernando/Desktop/WebProjects/TeaCozy/resources/images/img-locations-background2.jpg);
   width: auto;
   height: 500px;
@@ -76,18 +123,53 @@ nav {
 
 .location-items {
   display: flex;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+  width: 1022px;
+  height: 300px;
 }
 
 .box {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 300px;
   height: 300px;
-  background-color: #221919 a:0.9;
+  background-color: rgba(34, 25, 25, 0.9);
 }
 
+.box p {
+  padding: 10, 10;
+}
+
+/*Footer*/
+
 footer {
-  background-color: #221919;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(34, 24, 25, 1);
   width: auto;
-  height: 252px;
+  height: 260px;
+}
+
+footer .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer span {
+  color: #EAEAEA;
+  font-family: 'Lato';
+}
+
+footer a {
+  color: #EAEAEA;
+  font-family: 'Lato';
+  font-size: 20px;
 }
