@@ -2,9 +2,12 @@
 
 body,
 a {
-  font-family: 'Crimson Text', serif;
-  font-weight: normal;
+  font-family: 'Crimson Text';
   color: #EDDCCC;
+}
+
+span {
+  font-size: 20px;
 }
 
 h1 {
@@ -23,7 +26,7 @@ h4 {
   font-size: 30px;
 }
 
-h5, span, p {
+h5 {
   font-size: 20px;
 }
 
@@ -34,13 +37,14 @@ div {
 .flex-container {
   display: flex;
   justify-content: space-around;
+  align-content: center;
   flex-wrap: nowrap;
   flex-shrink: 2;
   align-items: center;
 }
 
 .main {
-  padding-top: 69px;
+  padding-top: 70px;
   width: 1200px;
   margin: auto;
 }
@@ -93,20 +97,14 @@ nav span {
   width: 100%;
   height: 650px;
   background-color: rgb(34, 25, 25);
-  padding-top: 1px;
   text-align: center;
 }
 
 #featured h2 {
-  margin-top: 40px;
-  margin-bottom: 5px;
-  padding: 5px;
   text-align: center;
 }
 
 #featured h4 {
-  margin: 10px;
-  padding: 5px;
   text-align: center;
 }
 
@@ -116,7 +114,6 @@ nav span {
 
 .item span {
   display: block;
-  padding: 10px;
   text-align: center;
 }
 
@@ -126,8 +123,6 @@ nav span {
   background-image: url(/Users/fernando/Desktop/WebProjects/TeaCozy/resources/images/img-locations-background2.jpg);
   width: 100%;
   height: 500px;
-  padding-top: 1px;
-  margin: 0;
 }
 
 #locations .flex-container {
@@ -137,18 +132,14 @@ nav span {
 }
 
 #locations h2 {
-  margin-top: 40px;
   text-align: center;
 }
 
 #locations h4 {
-  margin: 20px;
   text-align: center;
 }
 
 #locations p {
-  margin: 5px;
-  margin-bottom: 8px;
 }
 
 .location {
@@ -163,18 +154,23 @@ nav span {
   text-align: center;
 }
 
+/* Contact Section */
+
+#contact {
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  background-color: rgb(34, 25, 25);
+}
+
+#contact h5 {
+}
+
 /* Footer Section */
 
 footer {
   text-align: center;
   width: 100%;
-  height: 252px;
+  height: 50px;
   background-color: rgb(34, 25, 25);
-  margin: 0;
-  padding-top: 0px;
-}
-
-#contact h3 {
-  margin-top: 40px;
-  margin-bottom: 10px;
 }
