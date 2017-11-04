@@ -58,6 +58,7 @@ header {
   height: 70px;
   background-color: rgb(34, 25, 25);
   align-items: center;
+  margin-top: 0px;
 }
 
 header img {
@@ -91,6 +92,10 @@ nav span {
   text-align: center;
 }
 
+#mission h1, h3 {
+  margin: 20px auto;
+}
+
 /* Features Section */
 
 #featured {
@@ -102,10 +107,15 @@ nav span {
 
 #featured h2 {
   text-align: center;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-top: 40px;
+
 }
 
 #featured h4 {
   text-align: center;
+  margin-top: 20px;
 }
 
 .item img {
@@ -115,6 +125,7 @@ nav span {
 .item span {
   display: block;
   text-align: center;
+  padding-top: 10px;
 }
 
 /* Location Section */
@@ -133,13 +144,18 @@ nav span {
 
 #locations h2 {
   text-align: center;
+  margin-top: 0px;
+  padding-top: 40px;
 }
 
 #locations h4 {
   text-align: center;
+  margin: 20px auto;
 }
 
 #locations p {
+  font-size: 18px;
+  margin: 10px auto;
 }
 
 .location {
@@ -163,7 +179,13 @@ nav span {
   background-color: rgb(34, 25, 25);
 }
 
+#contact h3 {
+  margin-top: 0px;
+  padding-top: 40px;
+}
+
 #contact h5 {
+  margin: 10px auto;
 }
 
 /* Footer Section */
@@ -173,4 +195,10 @@ footer {
   width: 100%;
   height: 50px;
   background-color: rgb(34, 25, 25);
+}
+
+#copyright {
+  margin-top: 0px;
+  padding-top: 5px;
+  font-size: 18px;
 }
